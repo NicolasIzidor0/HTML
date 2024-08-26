@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 150px;
+    background-color: #76FFC6;
+}
+
+.area-logo {
+    width: 20%;
+    height: 100px;
+}
+
+header {
+    display: flex;
+    /*Permite que alinhemos as divs uma do lado da outra*/
+    align-items: center;
+
+}
+
+.menu-superior {
+    width: 100%;
+    height: 35px;
+    background-color: #76FFC6;
+    margin: 0;
+}
+
+.menu-superior ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+
+.menu-superior ul li {
+    display: flex;
+    align-items: center;
+    /*Alinha verticalmente no centro*/
+    height: 35px;
+    /*Garante que o li ocupe toda a altura do menu*/
+}
+
+/*Quando tiver a "classe menu superior ul li ", ao passar o mouse sobre a categoria a mesma deve se expandir minimamente*/
+.menu-superior ul li:hover {
+    background-color: #E35214;
+    align-items: center;
+    /*Alinha verticalmente no centro*/
+    height: 35px;
+    /*Garante que o li ocupe toda a altura do menu*/
+}

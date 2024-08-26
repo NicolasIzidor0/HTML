@@ -4,7 +4,7 @@
 Ao baixar e usar a fonte conectada a pasta onde a mesma está mesmo sem internet ela permanecerá na pagina web mesmo ao tentar limpar o cache*/
 @font-face {
     font-family: "BungeeTint-Regular";
-    src: url(fonts/BungeeTint-Regular.ttf); /**/
+    src: url(fonts/BungeeTint-Regular.ttf);
 }
 
 .bungee {
