@@ -12,6 +12,7 @@ body {
 }
 
 .area-logo {
+    align-items: center;
     width: 20%;
     height: 100px;
 }
@@ -120,7 +121,19 @@ header {
 }
 
 .banner-oferta-item img {
-    width: 97%;
+    width: 90%;
+}
+
+.banner-oferta-rodape {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 220px;
+}
+
+.banner-oferta-rodape img {
+    width: 91%;
+    margin-left: 5%;
 }
 
 .header-main {
@@ -213,6 +226,7 @@ header {
     color: #FF6500;
     text-decoration: none;
 }
+
 /*Quando é passado o mouse em cima de um link já visitado aplica as propriedades abaixo*/
 .item-marcas-recomendadas a:visited:hover {
     color: #FF6500;
@@ -266,4 +280,26 @@ header {
 
 .margem-titulo {
     margin-left: 5%;
+}
+
+.news {
+    display: flex;
+    background-color: #003A6A;
+    height: 80px;
+    align-items: center;
+}
+
+.news ul {
+    list-style: none;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.button-cadastrar {
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    font-weight: bolder;
+    background-color: #FF6500;
+    text-transform: uppercase;
 }

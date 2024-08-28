@@ -13,6 +13,28 @@ body {
     height: 100px;
 }
 
+.pesquisa {
+    margin-left: auto;
+}
+
+/*Os elementos ul dentro da classe pesquisa receberão os seguintes atributos*/
+.pesquisa ul {
+    display: flex;
+    /*Padrão em Row/Linha*/
+    list-style: none;
+    /*Padrões de listas, numeração, bolinhas. Afirmando com o none nenhum padrão de listagem aparecera*/
+}
+
+.pesquisa ul li {
+    padding-right: 30px;
+    /*Espaçamento Interno*/
+    color: #fff;
+}
+
+.pesquisa ul li a {
+    color: #fff;
+}
+
 header {
     display: flex;
     /*Permite que alinhemos as divs uma do lado da outra*/
@@ -48,4 +70,15 @@ header {
     /*Alinha verticalmente no centro*/
     height: 35px;
     /*Garante que o li ocupe toda a altura do menu*/
+}
+
+.menu-superior ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    /*Transforma as letras em maisculo*/
+    font-weight: bolder;
+    /*Deixa a letra mais "cheia"*/
 }

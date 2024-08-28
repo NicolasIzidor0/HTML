@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML5</title>
+</head>
+<body>
+    <!--Cadastro de alunos-->
+    <form action="https://localhost/cadastro-alunos.php" method="post">
+        <!--porta 80 é http e porta -->
+        <label for="nome">Nome:</label>
+        <input size="15" type="text" name="nome" id="nome" placeholder="digite seu nome">
+        <br>
+        <label for="cpf">CPF:</label>
+        <input size="11" maxlength="11" minlength="11" type="text" name="cpf" id="cpf" placeholder="digite seu cpf">
+        <br>
+        <label for="rm">RM:</label>
+        <input type="text" name="rm" id="rm" placeholder="Digite seu RM">
+        <br>
+        <label for="data_nascimento">Data Nascimento:</label>
+        <input type="date" id="data_nascimento" name="data_nascimento">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="endereco">Endereço:</label>
+        <input type="text" name="endereco" id="endereco">
+        <br>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone">
+        <br>
+        <button type="submit">Cadastrar</button>
+
+    </form>
+    
+</body>
+</html>

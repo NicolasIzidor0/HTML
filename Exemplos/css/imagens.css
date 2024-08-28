@@ -1,0 +1,14 @@
+body {
+    background-image: url("../img/banner/semana-da-informatica.webp");
+    /*Quando colocamos um link o navegador não fica buscando a imagem ele cria um cache*/
+    /* "./" procura items dentro do diretorio atual "../" procura dentro do diretorio que a pasta css está
+     e vai seguindo porem o maximmo de pontos que é possivel colocar é 2 para continar procurando use "../../" */
+    background-repeat: no-repeat;
+    /* x horizontal & y vertical*/
+    background-size: cover;
+    /*cover preenche toda area visivel/ou o elemento*/
+    width: 100vw;
+    /* vw=viewport width*/
+    height: 100vh;
+    /* vh=viewport height*/
+}
